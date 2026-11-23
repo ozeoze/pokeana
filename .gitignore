@@ -1,0 +1,8 @@
+# vendor FPGA bitstream captured from LA Viewer: never commit
+*.bin
+__pycache__/
+*.pyc
+*.pcap
+*.sr
+*.vcd
+.DS_Store

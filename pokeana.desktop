@@ -1,0 +1,11 @@
+# Change /home/USER/pokeana to where you put pokeana, then copy to ~/.local/share/applications/
+[Desktop Entry]
+Type=Application
+Name=ポケアナ
+Comment=ULA-4G36-72M logic analyser
+Exec=python3 /home/USER/pokeana/pokeana_gui.py %f
+Path=/home/USER/pokeana
+Icon=utilities-system-monitor
+Terminal=false
+Categories=Development;Electronics;
+MimeType=application/x-sigrok-session;
